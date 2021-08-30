@@ -8,10 +8,10 @@ class Var(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     # Get from my.telegram.org
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID", 5866979))
 
     # Get from my.telegram.org
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "9182938d2e0eaac257c3a563ab0877a9")
 
     # ID of users that can't use the bot commands
     BANNED_USERS = set(
